@@ -19,9 +19,9 @@
 
 ## 技術スタック
 - 開発言語: TypeScript
-- フレームワーク: Electron
+- フレームワーク: Next.js + Electron
 - UI: React
-- ビルドツール: Vite
+- ビルドツール: Turbopack
 
 ## インストール方法
 ```bash
@@ -32,22 +32,26 @@ git clone https://github.com/walk8243/shoko.git
 cd shoko
 npm install
 
-# 開発モードで起動
+# 開発モードで起動（Webアプリケーション）
 npm run dev
+
+# 開発モードで起動（デスクトップアプリケーション）
+npm run dev:app
 
 # アプリケーションのビルド
 npm run build
 ```
 
 ## 動作環境
-- Windows 10/11
-- macOS 10.15以降
-- Linux (主要なディストリビューション)
+### 必要条件
+- Node.js (v22.0.0以上)
+- npm (v10.0.0以上)
+- Windows 10/11, macOS, または Linux
 
 ## 開発環境のセットアップ
 ### 必要条件
-- Node.js (v18以上)
-- npm または yarn
+- Node.js (v22.0.0以上)
+- npm (v10.0.0以上)
 - Git
 
 ## 使用方法
