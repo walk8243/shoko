@@ -26,7 +26,7 @@
 ## インストール方法
 ```bash
 # リポジトリのクローン
-git clone https://github.com/[username]/shoko.git
+git clone https://github.com/walk8243/shoko.git
 
 # 依存関係のインストール
 cd shoko

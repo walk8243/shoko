@@ -1,0 +1,47 @@
+{
+  "name": "shoko",
+  "version": "1.0.0",
+  "description": "将皇（しょうこう）は、シンプルで使いやすいデスクトップ将棋アプリケーションです。オフラインで動作する軽量な将棋アプリとして、初心者から上級者まで幅広いユーザーに対応します。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "electron-dev": "electron .",
+    "electron:build": "electron-builder",
+    "dev:app": "concurrently \"npm run dev\" \"npm run electron-dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walk8243/shoko.git"
+  },
+  "keywords": [],
+  "author": "walk8243 <walk8243@gmail.com> (https://walk8243.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walk8243/shoko/issues"
+  },
+  "homepage": "https://github.com/walk8243/shoko#readme",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/next": "^2.0.3",
+    "@tsconfig/node20": "^20.1.5",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.8.3"
+  }
+}
